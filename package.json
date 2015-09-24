@@ -1,0 +1,24 @@
+{
+  "name": "cyte",
+  "version": "1.0.0",
+  "description": "A database query utility.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgb/cyte.git"
+  },
+  "keywords": [
+    "database",
+    "query"
+  ],
+  "author": "Derek Barnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgb/cyte/issues"
+  },
+  "homepage": "https://github.com/dgb/cyte#readme"
+}
