@@ -20,5 +20,18 @@
   "bugs": {
     "url": "https://github.com/dgb/cyte/issues"
   },
-  "homepage": "https://github.com/dgb/cyte#readme"
+  "homepage": "https://github.com/dgb/cyte#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "babel": "^5.8.23",
+    "babelify": "^6.3.0",
+    "bootstrap": "^3.3.5",
+    "browserify-middleware": "^7.0.0",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "react": "^0.13.3",
+    "superagent": "^1.4.0"
+  }
 }
