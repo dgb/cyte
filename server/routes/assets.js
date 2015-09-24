@@ -2,7 +2,7 @@ import browserify from 'browserify-middleware';
 import express    from 'express';
 
 const router = express.Router();
-const vendor = ['react', 'superagent'];
+const vendor = ['lodash', 'react', 'superagent'];
 
 router.get('/js/vendor.js', browserify(vendor, {
   transform: 'babelify'
